@@ -1,0 +1,7 @@
+C:\Users\Laci\source\repos\Szamok\Szamok\bin\Debug\Szamok.exe.config
+C:\Users\Laci\source\repos\Szamok\Szamok\bin\Debug\Szamok.exe
+C:\Users\Laci\source\repos\Szamok\Szamok\bin\Debug\Szamok.pdb
+C:\Users\Laci\source\repos\Szamok\Szamok\obj\Debug\Szamok.csproj.AssemblyReference.cache
+C:\Users\Laci\source\repos\Szamok\Szamok\obj\Debug\Szamok.csproj.CoreCompileInputs.cache
+C:\Users\Laci\source\repos\Szamok\Szamok\obj\Debug\Szamok.exe
+C:\Users\Laci\source\repos\Szamok\Szamok\obj\Debug\Szamok.pdb
