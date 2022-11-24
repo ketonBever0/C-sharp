@@ -5,3 +5,10 @@ C:\Users\Laci\source\repos\Verseny2\Verseny2\obj\Debug\Verseny2.csproj.AssemblyR
 C:\Users\Laci\source\repos\Verseny2\Verseny2\obj\Debug\Verseny2.csproj.CoreCompileInputs.cache
 C:\Users\Laci\source\repos\Verseny2\Verseny2\obj\Debug\Verseny2.exe
 C:\Users\Laci\source\repos\Verseny2\Verseny2\obj\Debug\Verseny2.pdb
+C:\Users\fullstack\source\repos\Verseny2\Verseny2\bin\Debug\Verseny2.exe.config
+C:\Users\fullstack\source\repos\Verseny2\Verseny2\bin\Debug\Verseny2.exe
+C:\Users\fullstack\source\repos\Verseny2\Verseny2\bin\Debug\Verseny2.pdb
+C:\Users\fullstack\source\repos\Verseny2\Verseny2\obj\Debug\Verseny2.csproj.AssemblyReference.cache
+C:\Users\fullstack\source\repos\Verseny2\Verseny2\obj\Debug\Verseny2.csproj.CoreCompileInputs.cache
+C:\Users\fullstack\source\repos\Verseny2\Verseny2\obj\Debug\Verseny2.exe
+C:\Users\fullstack\source\repos\Verseny2\Verseny2\obj\Debug\Verseny2.pdb

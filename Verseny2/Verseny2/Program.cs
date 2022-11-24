@@ -94,11 +94,11 @@ namespace Verseny2
             int primeNums3 = 0;
 
 
-            for (int i = 100000; i <= 999999; i++)
+            for (int i = 10000; i <= 99999; i++)
             {
                 if (PrimeCheck(i))
                 {
-                    Console.WriteLine(i);
+                    //Console.WriteLine(i);
                     if (PrimeCheck(i))
                     {
                         primeNums3++;
@@ -109,7 +109,7 @@ namespace Verseny2
 
             Console.WriteLine($"B)\nThe largest truncatable prime number between 100 000 and 300 000 is {primeNums2.Max()}.\n");
 
-            Console.WriteLine($"C)\nThe amount of 5 digit prime number is {primeNums2.Max()}.\n");
+            Console.WriteLine($"C)\nThe amount of 5 digit prime number is {primeNums2.Count()}.\n");
 
 
         }
