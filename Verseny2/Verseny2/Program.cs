@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,11 +33,11 @@ namespace Verseny2
         static void Main(string[] args)
         {
 
-
+            /*
 
             //  1. feladat
             //  A)
-
+            
             int truncated, primeNums = 0;
 
             for (int i = 10; i < 100; i++)
@@ -110,6 +111,46 @@ namespace Verseny2
             Console.WriteLine($"B)\nThe largest truncatable prime number between 100 000 and 300 000 is {primeNums2.Max()}.\n");
 
             Console.WriteLine($"C)\nThe amount of 5 digit prime number is {primeNums2.Count()}.\n");
+
+            */
+
+            //  2. feladat
+
+            //  A)
+
+
+            List<Int32> steps = new List<Int32>();
+
+            List<Lepesek> currentSteps = new List<Lepesek>();
+
+            try
+            {
+                var sorok = File.ReadAllLines("lepesek.txt", Encoding.Default);
+
+
+                //string currentSteps;
+
+                for (int i = 0; i < sorok.Length; i++)
+                {
+
+                    currentSteps.Add(new Lepesek(sorok[i], ' '));
+
+                }
+
+
+
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.StackTrace);
+            }
+
+
+            Console.WriteLine(currentSteps.Count());
+
+
+
+
 
 
         }
