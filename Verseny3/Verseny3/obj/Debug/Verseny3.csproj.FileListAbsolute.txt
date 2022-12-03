@@ -1,0 +1,7 @@
+C:\Users\Laci\source\repos\Verseny3\Verseny3\bin\Debug\Verseny3.exe.config
+C:\Users\Laci\source\repos\Verseny3\Verseny3\bin\Debug\Verseny3.exe
+C:\Users\Laci\source\repos\Verseny3\Verseny3\bin\Debug\Verseny3.pdb
+C:\Users\Laci\source\repos\Verseny3\Verseny3\obj\Debug\Verseny3.csproj.AssemblyReference.cache
+C:\Users\Laci\source\repos\Verseny3\Verseny3\obj\Debug\Verseny3.csproj.CoreCompileInputs.cache
+C:\Users\Laci\source\repos\Verseny3\Verseny3\obj\Debug\Verseny3.exe
+C:\Users\Laci\source\repos\Verseny3\Verseny3\obj\Debug\Verseny3.pdb
