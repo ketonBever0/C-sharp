@@ -1,0 +1,27 @@
+C:\Users\ruben\Desktop\3. forduló\3\szamok\szamok\bin\Debug\netcoreapp3.1\szamok.exe
+C:\Users\ruben\Desktop\3. forduló\3\szamok\szamok\bin\Debug\netcoreapp3.1\szamok.deps.json
+C:\Users\ruben\Desktop\3. forduló\3\szamok\szamok\bin\Debug\netcoreapp3.1\szamok.runtimeconfig.json
+C:\Users\ruben\Desktop\3. forduló\3\szamok\szamok\bin\Debug\netcoreapp3.1\szamok.runtimeconfig.dev.json
+C:\Users\ruben\Desktop\3. forduló\3\szamok\szamok\bin\Debug\netcoreapp3.1\szamok.dll
+C:\Users\ruben\Desktop\3. forduló\3\szamok\szamok\bin\Debug\netcoreapp3.1\szamok.pdb
+C:\Users\ruben\Desktop\3. forduló\3\szamok\szamok\obj\Debug\netcoreapp3.1\szamok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruben\Desktop\3. forduló\3\szamok\szamok\obj\Debug\netcoreapp3.1\szamok.AssemblyInfoInputs.cache
+C:\Users\ruben\Desktop\3. forduló\3\szamok\szamok\obj\Debug\netcoreapp3.1\szamok.AssemblyInfo.cs
+C:\Users\ruben\Desktop\3. forduló\3\szamok\szamok\obj\Debug\netcoreapp3.1\szamok.csproj.CoreCompileInputs.cache
+C:\Users\ruben\Desktop\3. forduló\3\szamok\szamok\obj\Debug\netcoreapp3.1\szamok.dll
+C:\Users\ruben\Desktop\3. forduló\3\szamok\szamok\obj\Debug\netcoreapp3.1\szamok.pdb
+C:\Users\ruben\Desktop\3. forduló\3\szamok\szamok\obj\Debug\netcoreapp3.1\szamok.genruntimeconfig.cache
+C:\Users\Laci\source\repos\versenyfeladat\szamok\bin\Debug\netcoreapp3.1\szamok.exe
+C:\Users\Laci\source\repos\versenyfeladat\szamok\bin\Debug\netcoreapp3.1\szamok.deps.json
+C:\Users\Laci\source\repos\versenyfeladat\szamok\bin\Debug\netcoreapp3.1\szamok.runtimeconfig.json
+C:\Users\Laci\source\repos\versenyfeladat\szamok\bin\Debug\netcoreapp3.1\szamok.runtimeconfig.dev.json
+C:\Users\Laci\source\repos\versenyfeladat\szamok\bin\Debug\netcoreapp3.1\szamok.dll
+C:\Users\Laci\source\repos\versenyfeladat\szamok\bin\Debug\netcoreapp3.1\szamok.pdb
+C:\Users\Laci\source\repos\versenyfeladat\szamok\obj\Debug\netcoreapp3.1\szamok.csproj.AssemblyReference.cache
+C:\Users\Laci\source\repos\versenyfeladat\szamok\obj\Debug\netcoreapp3.1\szamok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Laci\source\repos\versenyfeladat\szamok\obj\Debug\netcoreapp3.1\szamok.AssemblyInfoInputs.cache
+C:\Users\Laci\source\repos\versenyfeladat\szamok\obj\Debug\netcoreapp3.1\szamok.AssemblyInfo.cs
+C:\Users\Laci\source\repos\versenyfeladat\szamok\obj\Debug\netcoreapp3.1\szamok.csproj.CoreCompileInputs.cache
+C:\Users\Laci\source\repos\versenyfeladat\szamok\obj\Debug\netcoreapp3.1\szamok.dll
+C:\Users\Laci\source\repos\versenyfeladat\szamok\obj\Debug\netcoreapp3.1\szamok.pdb
+C:\Users\Laci\source\repos\versenyfeladat\szamok\obj\Debug\netcoreapp3.1\szamok.genruntimeconfig.cache
