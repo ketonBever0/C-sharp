@@ -94,7 +94,7 @@ namespace SuperBowlGUI
             }
             else
             {
-                
+                RomanBox.Text = DecimalToRoman(DecimalBox.Text);
             }
 
         }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SuperBowlGUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="250" Width="800">
+        Title="MainWindow" Height="250" Width="600">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
@@ -18,7 +18,7 @@
         </Grid.RowDefinitions>
 
         <Label Content="Római szám [I-X]:" FontSize="22" VerticalAlignment="Top" HorizontalAlignment="Center"/>
-        <TextBox x:Name="RomanBox" Width="200" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox x:Name="RomanBox" Width="150" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center"/>
 
 
         <Button x:Name="mode" Click="mode_Click" Content="--->" Margin="0,0,0,30" Grid.Column="1" VerticalAlignment="Center" MaxWidth="100"/>
@@ -26,7 +26,7 @@
 
 
         <Label Content="Arab szám [1-10]:" FontSize="22" VerticalAlignment="Top" HorizontalAlignment="Center" Grid.Column="2"/>
-        <TextBox x:Name="DecimalBox" IsEnabled="False" Width="200" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2"/>
+        <TextBox x:Name="DecimalBox" IsEnabled="False" Width="150" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2"/>
 
     </Grid>
 </Window>

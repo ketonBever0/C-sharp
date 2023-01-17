@@ -5,3 +5,10 @@ C:\Users\fullstack\source\repos\SuperBowl\SuperBowl\obj\Debug\SuperBowl.csproj.A
 C:\Users\fullstack\source\repos\SuperBowl\SuperBowl\obj\Debug\SuperBowl.csproj.CoreCompileInputs.cache
 C:\Users\fullstack\source\repos\SuperBowl\SuperBowl\obj\Debug\SuperBowl.exe
 C:\Users\fullstack\source\repos\SuperBowl\SuperBowl\obj\Debug\SuperBowl.pdb
+C:\Users\Laci\source\repos\SuperBowl\SuperBowl\bin\Debug\SuperBowl.exe.config
+C:\Users\Laci\source\repos\SuperBowl\SuperBowl\bin\Debug\SuperBowl.exe
+C:\Users\Laci\source\repos\SuperBowl\SuperBowl\bin\Debug\SuperBowl.pdb
+C:\Users\Laci\source\repos\SuperBowl\SuperBowl\obj\Debug\SuperBowl.csproj.AssemblyReference.cache
+C:\Users\Laci\source\repos\SuperBowl\SuperBowl\obj\Debug\SuperBowl.csproj.CoreCompileInputs.cache
+C:\Users\Laci\source\repos\SuperBowl\SuperBowl\obj\Debug\SuperBowl.exe
+C:\Users\Laci\source\repos\SuperBowl\SuperBowl\obj\Debug\SuperBowl.pdb

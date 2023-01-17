@@ -110,12 +110,10 @@ namespace SuperBowl
 
             //  7
 
-            List<string> reszvetelSzamok = new List<string>();
-
-            int elofordulas = 1;
             List<string> voltmar = new List<string>();
 
-            using (StreamWriter sw = new StreamWriter(new FileStream("SuperBowlNew.txt",FileMode.Open),Encoding.UTF8))
+            fejlec = "Ssz;Dátum;Győztes;Eredmény;Vesztes;Nézőszám";
+            using (StreamWriter sw = new StreamWriter(new FileStream("SuperBowlNew.txt",FileMode.OpenOrCreate),Encoding.UTF8))
             {
                 sw.WriteLine(fejlec);
                 foreach (var i in helyezesek)
@@ -123,15 +121,18 @@ namespace SuperBowl
                     voltmar.Add(i.Gyoztes);
                     voltmar.Add(i.Vesztes);
 
-                    sw.WriteLine($"{RomanToDecimal(i.Sorszam)}.;{i.Datum};{i.Gyoztes} ({voltmar.Where(x=>x.Contains(i.Gyoztes)).Count()});{i.Eredmeny};{i.Vesztes} ({voltmar.Where(x=>x.Contains(i.Vesztes)).Count()});{i.VarosAllam};{i.Nezoszam}");
+                    sw.WriteLine($"{RomanToDecimal(i.Sorszam)}.;{i.Datum};{i.Gyoztes} ({voltmar.Where(x=>x.Contains(i.Gyoztes)).Count()});{i.Eredmeny};{i.Vesztes} ({voltmar.Where(x=>x.Contains(i.Vesztes)).Count()});{i.Nezoszam}");
                 }
+                sw.Close();
             }
-
+            
             Console.WriteLine("7. feladat: Fájl kész!");
+            System.Diagnostics.Process.Start("SuperBowlNew.txt");
 
-
-
-
+            //foreach (var i in voltmar)
+            //{
+            //    Console.WriteLine(i);
+            //}
 
 
 
