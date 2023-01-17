@@ -1,0 +1,7 @@
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowl\bin\Debug\SuperBowl.exe.config
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowl\bin\Debug\SuperBowl.exe
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowl\bin\Debug\SuperBowl.pdb
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowl\obj\Debug\SuperBowl.csproj.AssemblyReference.cache
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowl\obj\Debug\SuperBowl.csproj.CoreCompileInputs.cache
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowl\obj\Debug\SuperBowl.exe
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowl\obj\Debug\SuperBowl.pdb

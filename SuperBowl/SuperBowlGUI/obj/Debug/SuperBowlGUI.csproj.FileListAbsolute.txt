@@ -1,0 +1,15 @@
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowlGUI\bin\Debug\SuperBowlGUI.exe.config
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowlGUI\bin\Debug\SuperBowlGUI.exe
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowlGUI\bin\Debug\SuperBowlGUI.pdb
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowlGUI\obj\Debug\SuperBowlGUI.csproj.AssemblyReference.cache
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowlGUI\obj\Debug\MainWindow.g.cs
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowlGUI\obj\Debug\App.g.cs
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowlGUI\obj\Debug\SuperBowlGUI_MarkupCompile.cache
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowlGUI\obj\Debug\SuperBowlGUI_MarkupCompile.lref
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowlGUI\obj\Debug\MainWindow.baml
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowlGUI\obj\Debug\SuperBowlGUI.g.resources
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowlGUI\obj\Debug\SuperBowlGUI.Properties.Resources.resources
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowlGUI\obj\Debug\SuperBowlGUI.csproj.GenerateResource.cache
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowlGUI\obj\Debug\SuperBowlGUI.csproj.CoreCompileInputs.cache
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowlGUI\obj\Debug\SuperBowlGUI.exe
+C:\Users\fullstack\source\repos\SuperBowl\SuperBowlGUI\obj\Debug\SuperBowlGUI.pdb

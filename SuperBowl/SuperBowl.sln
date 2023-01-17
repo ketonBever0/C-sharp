@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperBowl", "SuperBowl\SuperBowl.csproj", "{0FE0D42E-A33F-40ED-9911-F81D4FC5440E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperBowlGUI", "SuperBowlGUI\SuperBowlGUI.csproj", "{D58EBCEA-3EB0-49C1-9827-4AAE4B7F9BDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FE0D42E-A33F-40ED-9911-F81D4FC5440E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE0D42E-A33F-40ED-9911-F81D4FC5440E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE0D42E-A33F-40ED-9911-F81D4FC5440E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE0D42E-A33F-40ED-9911-F81D4FC5440E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D58EBCEA-3EB0-49C1-9827-4AAE4B7F9BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58EBCEA-3EB0-49C1-9827-4AAE4B7F9BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58EBCEA-3EB0-49C1-9827-4AAE4B7F9BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58EBCEA-3EB0-49C1-9827-4AAE4B7F9BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11DBB07F-E234-4711-AD43-0E4C1355289B}
+	EndGlobalSection
+EndGlobal
