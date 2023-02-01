@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI_indexWPF", "BMI_indexWPF\BMI_indexWPF.csproj", "{306C0F69-0DFC-41E6-8C33-4D65834FA73A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TESZT", "TESZT\TESZT.csproj", "{387AC5B8-9181-46BF-AFC4-C02F90E5C9DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{306C0F69-0DFC-41E6-8C33-4D65834FA73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306C0F69-0DFC-41E6-8C33-4D65834FA73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306C0F69-0DFC-41E6-8C33-4D65834FA73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306C0F69-0DFC-41E6-8C33-4D65834FA73A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387AC5B8-9181-46BF-AFC4-C02F90E5C9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387AC5B8-9181-46BF-AFC4-C02F90E5C9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387AC5B8-9181-46BF-AFC4-C02F90E5C9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387AC5B8-9181-46BF-AFC4-C02F90E5C9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {496DE9A3-B749-4762-9883-FD526B3A10AD}
+	EndGlobalSection
+EndGlobal
