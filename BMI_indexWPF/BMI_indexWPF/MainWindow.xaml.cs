@@ -120,6 +120,11 @@ namespace BMI_indexWPF
                 ertekeles = "Extrém elhízás";
             }
 
+            if (ertekeles != "")
+            {
+                ertekelesEredmeny.Text = ertekeles;
+            }
+
             if (eredmeny != 0)
             {
                 if (TestSuly.Text != "" || TestMagassag.Text != "")

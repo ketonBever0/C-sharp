@@ -50,10 +50,10 @@ namespace TESZT
         //  Nem- és ideális testsúly tesztelése folyamatban
         //  Egyelõre testsúly, magasság, illetve az eredmény tesztelése lehetséges
     [Test]
-    [TestCase(75,188,21.22)]
-    [TestCase(54, 162, 20.58)]
+    [TestCase(75,188,21.22, "Normális testsúly")]
+    [TestCase(52, 171, 17.78,"Enyhe soványság")]
 
-        public void Test1(double testsulyPar, double magassagPar, double elvartPar)
+        public void Test1(double testsulyPar, double magassagPar, double elvartPar, string elvartErtekeles)
     {
         extTest = extReport.CreateTest("BMIindex teszt");
 
@@ -72,9 +72,11 @@ namespace TESZT
         driver.FindElementByAccessibilityId("BMIszamol").Click();
 
         var eredmeny = driver.FindElementByAccessibilityId("sulyEredmeny");
+        var ertekeles = driver.FindElementByAccessibilityId("ertekelesEredmeny");
 
 
-        Assert.AreEqual(elvartPar, Convert.ToDouble(eredmeny.Text));
+        Assert.AreEqual(Math.Round(elvartPar,2), Convert.ToDouble(eredmeny.Text));
+        Assert.AreEqual(elvartErtekeles, ertekeles.Text);
         extTest.Log(Status.Pass, "Számítás teszt rendben");
     }
 
