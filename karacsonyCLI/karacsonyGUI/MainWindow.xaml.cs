@@ -23,6 +23,23 @@ namespace karacsonyGUI
         public MainWindow()
         {
             InitializeComponent();
+
+            for (int i = 0; i < 40; i++)
+            {
+                Nap_ComboBox.Items.Insert(i, i+1);
+            }
+
+            ElkeszitettText.Text = "0";
+            EladottText.Text = "0";
+
+
+
+
+        }
+
+        private void HozzaAdButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
