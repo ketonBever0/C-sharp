@@ -1,0 +1,42 @@
+﻿<Window x:Class="WpfMagyarVarosok.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfMagyarVarosok"
+        mc:Ignorable="d"
+        Title="Magyar városok" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            
+            <TabItem Header="Települések">
+                <DataGrid x:Name="datagridTelepulesek" AutoGenerateColumns="False" ColumnWidth="*">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Irányítószám" Binding="{Binding Irszam}"/>
+                        <DataGridTextColumn Header="Helységnév" Binding="{Binding Nev}"/>
+                        <DataGridTextColumn Header="Jogállás" Binding="{Binding JogallasNavigation.Jogallas1}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            
+            <TabItem Header="Megyék">
+                <DataGrid x:Name="datagridMegyek" AutoGenerateColumns="False" ColumnWidth="*">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Kód" Binding="{Binding Kod}"/>
+                        <DataGridTextColumn Header="Név" Binding="{Binding Nev}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            
+            <TabItem Header="Jogállások">
+                <DataGrid x:Name="datagridJogallas" AutoGenerateColumns="False" ColumnWidth="*">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Súly" Binding="{Binding Suly}"/>
+                        <DataGridTextColumn Header="Jogállás" Binding="{Binding Jogallas1}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            
+        </TabControl>
+    </Grid>
+</Window>
