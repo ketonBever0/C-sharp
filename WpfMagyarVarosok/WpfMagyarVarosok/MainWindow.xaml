@@ -7,20 +7,43 @@
         mc:Ignorable="d"
         Title="Magyar városok" Height="450" Width="800">
     <Grid>
-        <TabControl>
-            
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <TabControl Grid.Row="0">
+
             <TabItem Header="Települések">
-                <DataGrid x:Name="datagridTelepulesek" AutoGenerateColumns="False" ColumnWidth="*">
+                <DataGrid x:Name="datagridTelepulesek" ItemsSource="{Binding Telepulesek}" AutoGenerateColumns="False" ColumnWidth="*">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="Irányítószám" Binding="{Binding Irszam}"/>
                         <DataGridTextColumn Header="Helységnév" Binding="{Binding Nev}"/>
-                        <DataGridTextColumn Header="Jogállás" Binding="{Binding JogallasNavigation.Jogallas1}"/>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding DataContext.Jogallasok, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=DataGrid}}" DisplayMemberPath="Jogallas1" SelectedValuePath="Suly" SelectedValue="{Binding Jogallas}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding DataContext.Megyek, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=DataGrid}}" DisplayMemberPath="Nev" SelectedValuePath="Kod" SelectedValue="{Binding Megyekod}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Header="Ksh kód" Binding="{Binding Kshkod}"/>
+                        <DataGridTextColumn Header="Terület" Binding="{Binding Terulet}"/>
+                        <DataGridTextColumn Header="Népesség" Binding="{Binding Nepesseg}"/>
+                        <DataGridTextColumn Header="Lakások" Binding="{Binding Lakasok}"/>
+                        <DataGridTextColumn Header="Lat" Binding="{Binding Lat}"/>
+                        <DataGridTextColumn Header="Long" Binding="{Binding Long}"/>
                     </DataGrid.Columns>
                 </DataGrid>
             </TabItem>
-            
+
             <TabItem Header="Megyék">
-                <DataGrid x:Name="datagridMegyek" AutoGenerateColumns="False" ColumnWidth="*">
+                <DataGrid x:Name="datagridMegyek" ItemsSource="{Binding Megyek}" AutoGenerateColumns="False" ColumnWidth="*">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="Kód" Binding="{Binding Kod}"/>
                         <DataGridTextColumn Header="Név" Binding="{Binding Nev}"/>
@@ -29,7 +52,7 @@
             </TabItem>
             
             <TabItem Header="Jogállások">
-                <DataGrid x:Name="datagridJogallas" AutoGenerateColumns="False" ColumnWidth="*">
+                <DataGrid x:Name="datagridJogallas" ItemsSource="{Binding Jogallasok}" AutoGenerateColumns="False" ColumnWidth="*">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="Súly" Binding="{Binding Suly}"/>
                         <DataGridTextColumn Header="Jogállás" Binding="{Binding Jogallas1}"/>
@@ -38,5 +61,6 @@
             </TabItem>
             
         </TabControl>
+        <Button x:Name="DbUpdateButton" Click="DbUpdateButton_Click" Grid.Row="1" Content="Mentés"/>
     </Grid>
 </Window>

@@ -22,19 +22,44 @@ namespace WpfMagyarVarosok
     /// </summary>
     public partial class MainWindow : Window
     {
-        magyar_telepulesekContext telepulesekContext;
+        //magyar_telepulesekContext telepulesekContext;
+        ContextAdapter contextAdapter;
         public MainWindow()
         {
             InitializeComponent();
-            
-            telepulesekContext = new magyar_telepulesekContext();
-            telepulesekContext.Telepulesek.Load();
-            telepulesekContext.Jogallas.Load();
-            telepulesekContext.Megyek.Load();
+            contextAdapter = new ContextAdapter();
+            contextAdapter.context.SaveChanges();
 
-            datagridJogallas.ItemsSource = telepulesekContext.Jogallas.Local.ToObservableCollection();
-            datagridTelepulesek.ItemsSource = telepulesekContext.Telepulesek.Local.ToObservableCollection();
-            datagridMegyek.ItemsSource = telepulesekContext.Megyek.Local.ToObservableCollection();
+            //telepulesekContext = new magyar_telepulesekContext();
+            //telepulesekContext.Telepulesek.Load();
+            //telepulesekContext.Jogallas.Load();
+            //telepulesekContext.Megyek.Load();
+
+            //datagridJogallas.ItemsSource = telepulesekContext.Jogallas.Local.ToObservableCollection();
+            //datagridTelepulesek.ItemsSource = telepulesekContext.Telepulesek.Local.ToObservableCollection();
+            //datagridMegyek.ItemsSource = telepulesekContext.Megyek.Local.ToObservableCollection();
+
+
+
+            DataContext = contextAdapter;
+        }
+
+        private void DbUpdate()
+        {
+            var process = contextAdapter.context.SaveChanges();
+            if (process > 0)
+            {
+                MessageBox.Show("Adatok mentve!");
+            }
+            else
+            {
+                MessageBox.Show("Nincs változás!");
+            }
+        }
+
+        private void DbUpdateButton_Click(object sender, RoutedEventArgs e)
+        {
+            DbUpdate();
         }
     }
 }

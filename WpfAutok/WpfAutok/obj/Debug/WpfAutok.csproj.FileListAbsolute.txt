@@ -1,0 +1,15 @@
+C:\Users\fullstack\source\repos\WpfAutok\WpfAutok\bin\Debug\WpfAutok.exe.config
+C:\Users\fullstack\source\repos\WpfAutok\WpfAutok\bin\Debug\WpfAutok.exe
+C:\Users\fullstack\source\repos\WpfAutok\WpfAutok\bin\Debug\WpfAutok.pdb
+C:\Users\fullstack\source\repos\WpfAutok\WpfAutok\obj\Debug\WpfAutok.csproj.AssemblyReference.cache
+C:\Users\fullstack\source\repos\WpfAutok\WpfAutok\obj\Debug\MainWindow.g.cs
+C:\Users\fullstack\source\repos\WpfAutok\WpfAutok\obj\Debug\App.g.cs
+C:\Users\fullstack\source\repos\WpfAutok\WpfAutok\obj\Debug\WpfAutok_MarkupCompile.cache
+C:\Users\fullstack\source\repos\WpfAutok\WpfAutok\obj\Debug\WpfAutok_MarkupCompile.lref
+C:\Users\fullstack\source\repos\WpfAutok\WpfAutok\obj\Debug\MainWindow.baml
+C:\Users\fullstack\source\repos\WpfAutok\WpfAutok\obj\Debug\WpfAutok.g.resources
+C:\Users\fullstack\source\repos\WpfAutok\WpfAutok\obj\Debug\WpfAutok.Properties.Resources.resources
+C:\Users\fullstack\source\repos\WpfAutok\WpfAutok\obj\Debug\WpfAutok.csproj.GenerateResource.cache
+C:\Users\fullstack\source\repos\WpfAutok\WpfAutok\obj\Debug\WpfAutok.csproj.CoreCompileInputs.cache
+C:\Users\fullstack\source\repos\WpfAutok\WpfAutok\obj\Debug\WpfAutok.exe
+C:\Users\fullstack\source\repos\WpfAutok\WpfAutok\obj\Debug\WpfAutok.pdb
