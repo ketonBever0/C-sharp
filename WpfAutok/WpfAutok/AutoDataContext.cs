@@ -10,9 +10,9 @@ namespace WpfAutok
     {
         AutoList autok;
         public List<Autok> Autok { get; set; }
-        public AutoDataContext()
+        public AutoDataContext(string file)
         {
-            autok = new AutoList("autoadat.csv", ';');
+            autok = new AutoList(file, ';');
             Autok = autok.Autok;
         }
     }
