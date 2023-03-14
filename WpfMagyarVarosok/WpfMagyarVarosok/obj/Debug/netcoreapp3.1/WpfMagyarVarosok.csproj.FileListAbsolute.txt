@@ -42,3 +42,5 @@ C:\Users\fullstack\source\repos\WpfMagyarVarosok\WpfMagyarVarosok\obj\Debug\netc
 C:\Users\fullstack\source\repos\WpfMagyarVarosok\WpfMagyarVarosok\obj\Debug\netcoreapp3.1\WpfMagyarVarosok.dll
 C:\Users\fullstack\source\repos\WpfMagyarVarosok\WpfMagyarVarosok\obj\Debug\netcoreapp3.1\WpfMagyarVarosok.pdb
 C:\Users\fullstack\source\repos\WpfMagyarVarosok\WpfMagyarVarosok\obj\Debug\netcoreapp3.1\WpfMagyarVarosok.genruntimeconfig.cache
+C:\Users\fullstack\source\repos\WpfMagyarVarosok\WpfMagyarVarosok\obj\Debug\netcoreapp3.1\TelepulesModositas.g.cs
+C:\Users\fullstack\source\repos\WpfMagyarVarosok\WpfMagyarVarosok\obj\Debug\netcoreapp3.1\TelepulesModositas.baml

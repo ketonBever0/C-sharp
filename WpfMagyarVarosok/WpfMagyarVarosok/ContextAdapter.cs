@@ -7,7 +7,7 @@ using WpfMagyarVarosok.Models;
 
 namespace WpfMagyarVarosok
 {
-    class ContextAdapter
+    public class ContextAdapter
     {
         public magyar_telepulesekContext context;
 

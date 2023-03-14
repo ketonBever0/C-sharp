@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,11 +24,14 @@ namespace WpfMagyarVarosok
     public partial class MainWindow : Window
     {
         //magyar_telepulesekContext telepulesekContext;
-        ContextAdapter contextAdapter;
+        public ContextAdapter contextAdapter;
         public MainWindow()
         {
             InitializeComponent();
             contextAdapter = new ContextAdapter();
+
+            datagridTelepulesek.MouseDoubleClick += Grid_Click;
+
             contextAdapter.context.SaveChanges();
 
             //telepulesekContext = new magyar_telepulesekContext();
@@ -61,5 +65,21 @@ namespace WpfMagyarVarosok
         {
             DbUpdate();
         }
+
+
+        private void Grid_Click(object sender, RoutedEventArgs e)
+        {
+            var selectedTelepules = datagridTelepulesek.SelectedItem as Telepulesek;
+            TelepulesModositas telepulesModositas = new TelepulesModositas(selectedTelepules, this);
+            telepulesModositas.ShowDialog();
+
+
+            Debug.WriteLine(selectedTelepules.Nev);
+
+
+
+        }
+
+
     }
 }

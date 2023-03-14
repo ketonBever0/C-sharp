@@ -14,7 +14,7 @@
         <TabControl Grid.Row="0">
 
             <TabItem Header="Települések">
-                <DataGrid x:Name="datagridTelepulesek" ItemsSource="{Binding Telepulesek}" AutoGenerateColumns="False" ColumnWidth="*">
+                <DataGrid x:Name="datagridTelepulesek" ItemsSource="{Binding Telepulesek}" AutoGenerateColumns="False" ColumnWidth="*" IsReadOnly="True">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="Irányítószám" Binding="{Binding Irszam}"/>
                         <DataGridTextColumn Header="Helységnév" Binding="{Binding Nev}"/>
@@ -61,6 +61,6 @@
             </TabItem>
             
         </TabControl>
-        <Button x:Name="DbUpdateButton" Click="DbUpdateButton_Click" Grid.Row="1" Content="Mentés"/>
+        <Button x:Name="DbUpdateButton" Width="150" Height="30" Click="DbUpdateButton_Click" Grid.Row="1" Content="Mentés"/>
     </Grid>
 </Window>
